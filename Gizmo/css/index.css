@@ -1,0 +1,401 @@
+
+video {
+  object-fit: fill;
+}
+.GizmoBodyBanner {
+  position: relative;
+  width: 100%;
+  display: none;
+}
+.goAlive {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 999999999;
+  /* display: none; */
+}
+.goAliveTrangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -50%);
+  width: 0px;
+  height: 0px;
+  border: 150vw solid transparent;
+  border-color: transparent transparent transparent #ffc001;
+}
+.goaliveImg {
+  width: 375px;
+}
+.bodyLists {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+.bodyFirstVideo,
+.bodyListsImg {
+  width: 100%;
+  height: 100%;
+}
+
+.videoContener {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  padding: 15% 0px;
+  z-index: 998;
+}
+.videoContenerImg {
+  width: 40%;
+}
+.videoContenerTitle {
+  font-size: 45px;
+  padding: 26px 0px;
+  cursor: text;
+}
+.VideoContenerHref {
+  position: relative;
+  width: 266px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffdc00;
+  border-radius: 8px;
+  line-height: 76px;
+  letter-spacing: 4px;
+  color: rgb(19, 16, 16);
+  font-weight: bolder;
+  cursor: pointer;
+  overflow: hidden;
+}
+.maskLine {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: -266px;
+  opacity: 0.3;
+  background-color: #e9af02;
+}
+.videoContenerP {
+  position: absolute;
+  right: 0px;
+  bottom: 10%;
+}
+.videoContenerSlide {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 10%;
+  font-size: 32px;
+  cursor: pointer;
+}
+.bannerCommon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+.theSecondBanner {
+  padding: 13% 17%;
+}
+.notre {
+  display: flex;
+  letter-spacing: 4px;
+}
+.theSecondBannerTrangle {
+  display: block;
+  width: 0px;
+  height: 0px;
+  border: 10px solid transparent;
+  border-color: transparent transparent transparent #ffc001;
+}
+.theSecondBannerTitle {
+  font-size: 40px;
+  padding: 30px 0px;
+}
+.theSecondBannerHref {
+  position: relative;
+  width: 370px;
+  height: 74px;
+  background-color: #ffdc00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: rgb(19, 16, 16);
+  font-weight: bolder;
+  letter-spacing: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+#thesecondMaskline {
+  background-color: #e9af02;
+}
+.background {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.thirdBackground {
+  background-image: linear-gradient(
+    55deg,
+    transparent 6%,
+    #fed204 27%,
+    #fed204 100%
+  );
+  transform: skew(-35deg) translateX(35%);
+  left: 1400px;
+}
+.fourBackground {
+  transform: skew(-35deg) translateX(-35%);
+  background-image: linear-gradient(
+    -115deg,
+    transparent 0%,
+    #51deed 25%,
+    #51deed 100%
+    
+  );
+  left: -1400px;
+}
+.fiveBackground {
+  transform: skew(-35deg) translateX(35%);
+  background-image: linear-gradient(
+    55deg,
+    transparent 6%,
+    #ffffff 27%,
+    #f1f1f1 100%
+  );
+  left: 1400px;
+}
+.theThirdBanner {
+  padding-left: 50%;
+}
+.imgCommon {
+  width: 50%;
+  padding: 20px 0px;
+}
+.h2Common {
+  max-width: 70%;
+  font-family: "trendablack";
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.PCommon {
+  max-width: 70%;
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #383543 !important;
+}
+.hrefCommon {
+  position: relative;
+  width: 370px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #383543;
+  font-family: "trendablack";
+  font-size: 0.9em;
+  letter-spacing: 3px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hrefCommonMask {
+  background-color: #312f3a;
+}
+
+.hrefMove {
+  position: absolute;
+  top: 0px;
+  left: -370px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+.theFourBanner {
+  padding-left: 15%;
+}
+.theFourP {
+  max-width: 50%;
+}
+.theFiveBanner {
+  padding-left: 50%;
+}
+.theFiveTitle {
+  color: #333333;
+}
+.theFiveBanner > a {
+  display: block;
+  text-decoration: underline;
+  color: #f89e19;
+  max-width: 70%;
+  font-size: 23px;
+  margin-bottom: 2%;
+}
+.theFiveBanner > a:hover {
+  color: #373737;
+}
+.theSixBanner {
+  padding-left: 55%;
+  background-color: #e9af02;
+  opacity: 0.9;
+}
+.theSixTitle {
+  color: #fff;
+  margin-top: 20px;
+}
+.theSixP {
+  color: #312f3a;
+}
+.theSixHref {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: all 0.4s;
+}
+.theSixHref:hover {
+  color: #373737;
+}
+.theSixMask {
+  background-color: #fff;
+  opacity: 1;
+  z-index: -1;
+}
+.theSevenBanner {
+  padding-left: 13%;
+  background-color: #383543;
+  opacity: 0.7;
+}
+.theSevenTitle {
+  width: 40%;
+  margin: 2% 0px;
+  font-size: 2em;
+}
+#theSevenForm > div {
+  height: 50px;
+  margin: 4px 0px;
+}
+.theSevenBtn {
+  color: #312f3a;
+  background-color: #fed204;
+  border: none;
+}
+.theSevenBtn:hover {
+  background-color: #ffdc00;
+}
+#theSevenFormName {
+  color: white;
+  margin-right: 6px;
+}
+#theSevenFormLis {
+  background-color: black;
+  padding: 10px 30px 10px 8px;
+}
+.bac {
+  background: black url(../image/arrow-select.png) right center no-repeat;
+  background-size: auto 6px;
+}
+#theSevenFormLis > select,
+#theSevenFormLis > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  font-size: 1.1em;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+#slideBac{
+    background-color: black;
+}
+.theSevenP{
+  font-size: 12px;
+  max-width: 90%;
+  margin:20px 0px;
+}
+.advertisementArear{
+  position:fixed;
+  bottom:0px;
+  right:-470px;
+  z-index:999999;
+  background-color:#060606;
+  width: 460px;
+  height: 130px;
+}
+.advertisementDelete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  left:-10px;
+  top:-10px;
+  background-color: #060606;
+  cursor: pointer;
+}
+.del{
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  color:#060606;
+  background-color: #fff;
+  border-radius: 50%;
+  font-weight: bolder;
+}
+.advertisementPic{
+  position: absolute;
+  bottom:130px;
+  left:30px;
+  width: 116px;
+  height: 166px;
+  box-shadow: 0px 0px 20px black;
+  opacity: 0;
+}
+.advertisementContener{
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  right:0px;
+  top:0px;
+  width: 454px;
+  height: 100%;
+  background-color: #fff;
+  padding:0px 30px 0px 40%;
+}
+.advertisementContener>a{
+  color:#312f3a;
+  padding:10px 0px;
+}
+.advertisementContener strong{
+  color:black;
+}

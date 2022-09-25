@@ -1,0 +1,841 @@
+.mainHeader{
+    position:relative;
+    background-color: #383543;
+    transition: all .8s;
+    height: 70px;
+    z-index: 99999999999;
+}
+.mask{
+  color:#ccc;
+}
+.immoBodyBanner{
+    position: relative;
+}
+.bodyLists {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+  }
+  .bodyListsImg {
+    width: 100%;
+    height: 100%;
+  }
+  .bannerCommon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+  }
+  .theSevenBanner {
+    padding-left: 13%;
+    background-color: #383543;
+    opacity: 0.7;
+  }
+  .theSevenTitle {
+    width: 40%;
+    margin: 2% 0px;
+    font-size: 2em;
+  }
+  #theSevenForm > div {
+    height: 50px;
+    margin: 4px 0px;
+  }
+  .theSevenBtn {
+    color: #312f3a;
+    background-color: #fed204;
+    border: none;
+  }
+  .theSevenBtn:hover {
+    background-color: #ffdc00;
+  }
+  #theSevenFormName {
+    color: white;
+    margin-right: 6px;
+  }
+  #theSevenFormLis {
+    background-color: black;
+    padding: 10px 30px 10px 8px;
+  }
+  .bac {
+    background: black url(../image/arrow-select.png) right center no-repeat;
+    background-size: auto 6px;
+  }
+  #theSevenFormLis > select,
+  #theSevenFormLis > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.1em;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+  #slideBac{
+      background-color: black;
+  }
+  .theSevenP{
+    font-size: 12px;
+    max-width: 90%;
+    margin:20px 0px;
+  }
+  .hrefCommon {
+    position: relative;
+    width: 370px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "trendablack";
+    font-size: 0.9em;
+    letter-spacing: 3px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .navContener{
+    position: static;
+    top:0px;
+    left:0px;
+    z-index: 99999999;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    width: 100%;
+    padding-left:10%;
+    background-color: #f0f0ef;
+    white-space: nowrap;
+  }
+  .navContenerList{
+    padding:15px 10px;
+    color:black;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor:pointer;
+  }
+  .navContenerLogo{
+    width: 150px;
+    padding:0px 10px;
+  }
+  .deviceArear{
+    position: relative;
+    overflow: hidden;
+  }
+  .theFirstBannerImmo{
+    width: 100%;
+    height: calc(100vh - 70px);
+  }
+  .immoVeideo{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 95%;
+    height: 100%;
+  }
+  .backgroundImmo{
+    background-image: linear-gradient(55deg, transparent -100%, #fed204 40%, #fed204 100%);
+    width: 88%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skew(-35deg) translateX(35%);
+  }
+  .theFirstBannerImmoContent{
+  position: absolute;
+  top:0px;
+  left:50%;
+  width: 50%;
+  height: 100%;
+  z-index: 9999;
+  }
+  .marginTop{
+    margin-top: 60px;
+    opacity: 0;
+  }
+  .theFirstBannerImg{
+    width: 98%;
+    margin:10px 0px;
+    opacity: 0;
+  }
+  .theFirstBannerTitle{
+    color: white;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'trendablack';
+    max-width: 80%;
+  }
+  .theFirstBannerP{
+    color: #383543 !important;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    max-width: 80%;
+  }
+  .immoHrefCommon,#firstHref{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .theFirstBannerHref{
+    width: 294px;
+    height: 72px;
+    color: white;
+    background-color: #383543;
+  }
+  .maskLine,#firstMask{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    opacity: 0.3;
+  }
+  .firstMask{
+    left:-294px;
+    background-color: #2a2833;
+  }
+  .theSecondBannerImmo{
+    position: relative;
+    z-index: 9999;
+    display:flex;
+    align-items: center;
+    padding:50px 0px 50px 10%;
+    background-color: white;
+  }
+  .theSecondBannerImmoLeft{
+    width: 47%;
+    height: 100%;
+  }
+  .immoGoBackBanner{
+    display:flex;
+    align-items: center;
+  }
+  #backMain{
+    cursor: pointer;
+  }
+  #backMain:hover a{
+    text-decoration: underline;
+  }
+  #backMain>span{
+    color:#312f3a;
+  }
+  #backMain>a{
+    color:#159494;
+    margin-left:15px;
+  }
+  .forwardRight{
+    margin:0px 6px;
+  }
+  .immoGoBackBanner>span{
+    color:#403c4d;
+  }
+  .theSecondBannerImmoTitle{
+    font-family: 'trendablack';
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    color: #383543;
+  }
+  .theSecondBannerImmoP{
+    font-family: 'trendaregular', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.9em;
+    margin-bottom: 40px;
+    color: #383543;
+    margin-left:-60px;
+    opacity: 0;
+  }
+  .theSecondBannerImmoP>a{
+    color:blue;
+    text-decoration: underline;
+  }
+
+  .theSecondBannerImmoHref{
+    width: 374px;
+    height: 74px;
+    background-color:#fed204;
+    color:#383543;
+  }
+  .secondMask{
+    background-color: #dab200;
+    left:-374px;
+  }
+  .theSecondBannerImmoRight{
+    position: relative;
+    width: 53%;
+    height: 410px;
+    background-color: #ffdc00;
+    margin-right:-60px;
+    opacity: 0;
+  }
+  .slideImgBottom{
+    position: absolute;
+    top:0px;
+    left:0px;
+    /* width: 728px; */
+    width: 100%;
+    height: 100%;
+    user-select: none;
+  }
+  .slideImgTop{
+    position: absolute;
+    top:0px;
+    left:0px;
+    /* width: 728px; */
+    width: 55%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+  }
+  .slideImgTop>img{
+    width: 728px;
+  }
+  .hudle{
+    position:absolute;
+    top:50%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    width: 15px;
+    height: 125px;
+    background-color:#fed204 ;
+    border-radius: 5px;
+    cursor:ew-resize;
+  }
+  .hudle:after{
+    content: '';
+    background-color: white;
+    width: 2px;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left:5px;
+    transform: translateY(-50%);
+  }
+  .hudle:before{
+    content: '';
+    background-color: white;
+    width: 2px;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    right:5px;
+    transform: translateY(-50%);
+  }
+  .theThirdBannerImmo{
+    width: 100%;
+    padding:120px 0px;
+  }
+  .theThirdBackground{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: url(../image/gizmo-immo-3.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  .theThirdContent{
+    display: flex;
+    width: 80%;
+    margin:auto;
+  }
+  .theThirdLeft{
+    position: relative;
+    z-index: 9999;
+    width: 50%;
+    margin-left: -60px;
+    opacity: 0;
+  }
+  .theThirdRight{
+    position: relative;
+    z-index: 9999;
+    width: 50%;
+  }
+  .theThirdRightContent{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    opacity: 0;
+  }
+  .theThirdRightContentTop{
+    padding:30px;
+    width: 100%;
+    background-color: #bababa;
+  }
+  .theThirdRightContentTop>span{
+    margin-right:4px;
+    font-size: 13px;
+    color:#FFF;
+  }
+  .theThirdRightContentBottom{
+    width: 100%;
+    height: auto!important;
+  }
+  .theThirdRightH2{
+    color: #383543;
+    font-family: 'trendablack';
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+  }
+  .theThirdRightP{
+    font-family: 'trendaregular', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.9em;
+    margin-bottom: 40px;
+    color: #383543;
+  }
+  i{
+    font-family: 'trendaregular';
+    font-style: normal;
+    color:rgb(82, 82, 82);
+  }
+  .theFourBannerImmo{
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+    padding:40px 0px 40px 10%;
+  }
+  .theFourBanner{
+    display:flex;
+    width: 90%;
+  }
+  .theFourBannerLeft{
+    width: 40%;
+  }
+  .theFourBannerLeftH2{
+    font-family: 'trendablack';
+    font-size: 1.6em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    color: #383543;
+    font-weight: bolder;
+  }
+  .theFourBannerLeftP{
+    font-size: 1.2em;
+    line-height: 1.9em;
+    margin-bottom: 40px;
+    color: #383543 !important;
+    font-family: 'trendaregular', sans-serif;
+  }
+  .theFourBannerRight{
+    width: 60%;
+    margin-right: -60px;
+    opacity: 0;
+  }
+  .theFourBannerLeftHref{
+    width: 370px;
+    height: 72px;
+    background-color: #ffdc00;
+    color:#2a2833
+  }
+  .fourMask{
+    background-color: #dab200;
+    left:-370px;
+  }
+  .theFiveBannerImmo{
+    height: 384px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+  }
+  .theFiveBannerImg,.theFiveBannerP{
+    position: relative;
+    z-index: 9999;
+  }
+  .theFiveBannerImg{
+    height: 50px;
+  }
+  .theFiveBannerP{
+    padding:50px 0px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    max-width: 70%;
+    color: #383543;
+    text-align: center;
+  }
+  .theSixBannerImmo{
+    padding:1px 10%;
+  }
+  .theSixBannerImmoTop{
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+  }
+  .viewport{
+    width: 100%;
+    height: 66px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+  }
+  .theSixBannerImmoTopImg{
+    height: 36px;
+    margin:30px 15px;
+  }
+  .theSixBannerImmoTopImg>img{
+    width: auto;
+  }
+  .theSixBannerImmoTopSituation{
+    position: relative;
+    width: 100%;
+    height: 388px;
+    overflow: hidden;
+    border-top:1px solid #403c4d;
+    background-color: white;
+  }
+  .bigMask{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    z-index: 99999999999;
+  }
+  .bigMaskCicrl{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #50dfee;
+    opacity: 1;
+  }
+  .theSixBannerImmoTopSituationImg{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+  }
+  .transitionBox{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 0px;
+    height: 0px;
+    background-color: #50dfee;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  .goBtn{
+    position:absolute;
+    top:40%;
+     width: 50px;
+     height: 50px;
+     border:1px dashed #50dfee;
+     border-radius: 50%;
+     z-index: 999999999;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor:pointer;
+     transition: all .6s;
+  }
+  .goBtnMain{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#50dfee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goBtnMain>.iconfont{
+    font-size: 26px!important;
+    font-weight: bolder;
+  }
+  .sofa{
+    left:27%;
+    opacity: 1;
+  }
+  .kitchen{
+    left:64%;
+    opacity: 1;
+  }
+  .opacityCommon{
+    opacity: 0;
+  }
+  .kitchenDetial{
+    right:10%;
+  }
+  .backHome{
+    left:33%;
+  }
+  .foot{
+    right:25%;
+  }
+  .batheLeft{
+    left:41%;
+  }
+  .batheRight{
+    right:15%;
+  }
+  .houseListBanner{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 192px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: 2px;
+    background: rgba(255,255,255,.9);
+    padding:10px;
+    z-index: 99999999;
+  }
+  /* 设置滚动条样式 */
+  .houseListBanner::-webkit-scrollbar{
+    width: .2em;
+  }
+  .houseListBanner::-webkit-scrollbar-thumb{
+    background-color: #878787;
+  }
+  .houseLists{
+    margin-bottom: 10px;
+    height: 116px;
+    cursor: pointer;
+    border:4px solid transparent;
+  }
+  .houseLists:first-child{
+    border-color: #1eced1;
+  }
+  .houseImg{
+    height: 75%;
+    width: 100%;
+  }
+  .houseName{
+    width: 100%;
+    height: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    color:#312f3a;
+    font-size: 12px;
+  }
+
+  .slideBtnCommon{
+    position:absolute;
+    top:0px;
+    width: 30px;
+    height: 74px;
+    background-color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 74px;
+    cursor: pointer;
+    z-index: 999999;
+  }
+  .houseListSlideBtn{
+    left:192px;
+  }
+  .houseMenu{
+    position:absolute;
+    top:0px;
+    right:-94px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 94px;
+    height: 100%;
+    padding:16px 0px;
+    background: rgba(255,255,255,.9);
+  }
+  .houseMenu>span{
+    width: 42px;
+    height: 42px;background-color:#878787;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom:10px;
+    cursor: pointer;
+    font-size: 22px;
+    color:#f9f9f9;
+    transition: all 0.8s;
+  }
+  .houseMenuSlideBtn{
+    right:0px;
+  }
+  .slideBtnCommon>span{
+    color:#1eced1;
+  }
+  .overView{
+    position: absolute;
+    top:-384px;
+    left:50%;
+    transform: translate(-50%,0);
+    width: 500px;
+    height: 384px;
+    z-index: 9999999999999999999999;
+    overflow: hidden;
+  }
+  .overViewImg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+  }
+  .overViewMask{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width: 100%;
+    height: 30px;
+    background:rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-align: center;
+  }
+  .overViewImg>.iconfont{
+    position: absolute;
+    top:0px;
+    left:0px;
+    color:#00dddd;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color:transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: all .4s;
+  }
+  .overViewImg>.iconfont:hover{
+    background-color: rgb(211, 211, 211);
+  }
+  .forward-more{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999999999999;
+    display:none;
+  }
+  .forward-more-mask{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.6;
+  }
+  .Content{
+    position: relative;
+    width: 58%;
+    margin:0 auto;
+  }
+  .forward-more-top{
+    width: 100%;
+    height: 74px;
+    display:flex;
+    padding:0px 4px 6px 0px;
+    cursor: pointer;
+  }
+  .forwardTop{
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .moreTop{
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-bottom: 10px;
+  }
+  .forwardTop>.iconfont{
+    font-size: 18px;
+    padding:2px;
+    font-weight: bolder;
+  }
+  .forward-more-bottom{
+    width: 100%;
+    padding:26px;
+    background-color: white;
+  }
+  .moreTopContent{
+    font-size: 18px;
+  }
+  .moreButtom{
+    color:#2a2833
+  }
+  .theSixBannerImmoBottom{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 332px;
+    padding-top:70px;
+  }
+  .forwardBottomTitle{
+    margin:10px 0px;
+    cursor: default;
+    color:#6f7e84;
+  }
+  .forwardIcon{
+    margin:6px 0px;
+  }
+  .forwardIcon>.iconfont{
+    width: 40px;
+    height: 40px;border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bolder;
+    font-size: 22px;
+    background-color: #1eced1;
+    padding:8px;
+    margin:4px 4px 4px 0px;
+    cursor: pointer;
+  }
+  .forwardHref{
+    width: 100%;
+    padding:8px 10px;
+    background-color: #595b5a;
+    font-size: 14px;
+    font-weight: 100;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .theSixBannerImmoBottomHrefLeft,.theSixBannerImmoBottomHrefRight{
+    position: relative;
+    z-index: 9999;
+    width: 370px;
+    height: 72px;
+  }
+  .theSixBannerImmoBottomHrefLeft{
+    background-color: #fed204;
+    color:#312f3a;
+  }
+  .theSixBannerImmoBottomHrefRight{
+    background-color:#403c4d;
+    color:#FFF;
+  }
+  .fiveMask{
+    background-color: #dab200;
+  }
+  .sixMask{
+    background-color: #2a2833;
+  }
+  .theSixBannerImmoBottom span{
+    left:-370px;
+  }

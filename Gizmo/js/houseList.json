@@ -1,0 +1,40 @@
+[{
+    "houseUrl":"./image/thumbnail11.jpg",
+    "houseName":"Entrée"
+},{
+    "houseUrl":"./image/thumbnail22.jpg",
+    "houseName":"Cuisine"
+},{
+    "houseUrl":"./image/thumbnail33.jpg",
+    "houseName":"Salle à manger"
+},{
+    "houseUrl":"./image/thumbnail44.jpg",
+    "houseName":"Salon"
+},{
+    "houseUrl":"./image/thumbnail55.jpg",
+    "houseName":"Chambre 1"
+},{
+    "houseUrl":"./image/thumbnail66.jpg",
+    "houseName":"Couloir"
+},{
+    "houseUrl":"./image/thumbnail77.jpg",
+    "houseName":"Bureau"
+},{
+    "houseUrl":"./image/thumbnail88.jpg",
+    "houseName":"Chambre 3"
+},{
+    "houseUrl":"./image/thumbnail99.jpg",
+    "houseName":"Couloir 2"
+},{
+    "houseUrl":"./image/thumbnail1010.jpg",
+    "houseName":"Chambre 2"
+},{
+    "houseUrl":"./image/thumbnail1111.jpg",
+    "houseName":"Chambre 4"
+},{
+    "houseUrl":"./image/thumbnail1212.jpg",
+    "houseName":"Salle de Bain"
+},{
+    "houseUrl":"./image/thumbnail1313.jpg",
+    "houseName":"Salle d'eau"
+}]
