@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gizmo.immo est un service pour les promoteurs immobiliers et les professionnels de l&#039;habitat. Nous modélisons tous les appartements de vos programmes immobiliers." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description"
+        content="Gizmo.immo est un service pour les promoteurs immobiliers et les professionnels de l&#039;habitat. Nous modélisons tous les appartements de vos programmes immobiliers." />
+    <meta name="twitter:title"
+        content="Gizmo Immo : révolutionnez l&#039;expérience client grâce aux visites virtuelles" />
+    <title>Gizmo Immo : révolutionnez l&#039;expérience client grâce aux visites virtuelles</title>
+    <link rel="shortcut icon" href="./image/右三角形.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/immo.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/immo.js"></script>
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header class="mainHeader">
+        <h1 title="THIS IS GIZMO!">
+            <a href="" class="headLogo"><img src="./image/logo.png" alt=""></a>
+        </h1>
+        <div class="headRight">
+            <div class="languageBtn">
+                <span id="en">FR</span>
+                <span class="iconfont">&#xe667;</span>
+                <span class="language">EN</span>
+            </div>
+            <span class="searchBtn iconfont">&#xe65b;</span>
+            <div class="menuBtn">
+                <span>MENU</span>
+                <span class="menuRight">
+                    <span id="munuTop"></span>
+                    <span id="munuMiddlw"></span>
+                    <span id="munuBottom"></span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- 导航栏区域 -->
+    <div class="navContener">
+        <div class="navContenerLogo"><img src="./image/logo-gizmo-immo-sub.png" alt=""></div>
+        <div class="navContenerList">Notre solution</div>
+        <div class="navContenerList">Nos rendus</div>
+        <div class="navContenerList">Comment ça marche ?</div>
+        <div class="navContenerList">Showroom</div>
+        <div class="navContenerList">Livre blanc</div>
+        <div class="navContenerList">Contact</div>
+    </div>
+
+
+
+    <!-- 中间区域 -->
+    <div class="immoBodyBanner">
+        <!-- 遮罩层分栏模块 -->
+        <div class="mask">
+            <div class="maskList minMask"></div>
+            <div class="maskList maxMask"></div>
+            <div class="maskList maxMask"></div>
+            <div class="maskList maxMask"></div>
+            <div class="maskList maxMask"></div>
+            <div class="maskList minMask"></div>
+        </div>
+
+        <!-- 分页模块 -->
+        <section class="theFirstBannerImmo deviceArear">
+            <div class="immoVeideo">
+                <video autoplay loop muted width="100%" src="./image/00-VIDEO-IMMO.mp4"></video>
+            </div>
+            <div class="backgroundImmo"></div>
+            <div class="theFirstBannerImmoContent">
+                <div class="theFirstBannerImg"><img src="./image/3.1.png" alt=""></div>
+                <h2 class="theFirstBannerTitle marginTop">Grâce à nos solutions, 100% de vos commerciaux augmenteront leur
+                    efficacité</h2>
+                <p class="theFirstBannerP marginTop">En général, seulement 20% des commerciaux arrivent à vendre avec un plan 2D.
+                    Gizmo.immo offre une approche unique du marché en accompagnant vos commerciaux sur toutes les étapes
+                    de la vente. Séduire pour capter des leads, convaincre pour transformer la vente et personnaliser
+                    pour répondre aux demandes spécifiques des acquéreurs.</p>
+                <div class="theFirstBannerHref marginTop" id="firstHref"><span class="firstMask" id="firstMask"></span>Découvrir
+                    en
+                    vidéo</div>
+            </div>
+        </section>
+        <section class="theSecondBannerImmo deviceArear">
+            <div class="theSecondBannerImmoLeft">
+                <div class="immoGoBackBanner">
+                    <div id="backMain">
+                        <span class="iconfont">&#xe621;</span>
+                        <a href="javaScript:;" class="Accueil">Accueil</a>
+                    </div>
+                    <span class="iconfont forwardRight">&#xe609;</span>
+                    <span class="nowPosition">Gizmo.immo</span>
+                </div>
+                <h3 class="theSecondBannerImmoTitle marginTop">Nous personnalisons nos solutions selon la taille et le standing de
+                    vos programmes pour répondre à tous vos besoins quel que soit votre budget.</h3>
+                <div class="theSecondBannerImmoP">Gizmo propose 2 niveaux de services :<br>
+                    • <a href="">Gizmo.immo</a>, une expérience haut de gamme et sur mesure avec un accompagnement
+                    personnalisé, une qualité d’image et d’immersion extraordinaire et l’intégration de tous les
+                    éléments techniques spécifiques à vos programmes.<br>
+                    • <a href="">easyGizmo.immo</a>, un service 100% automatisé, des prix imbattables et des rendus
+                    livrés en quelques jours.</div>
+                <div class="theSecondBannerImmoHref marginTop immoHrefCommon"><span class="secondMask maskLine"></span>Comment ça
+                    marche</div>
+            </div>
+            <div class="theSecondBannerImmoRight">
+                <div class="slideImgBottom"><img src="./image/immo-vue-interieur-photo1.jpg" alt=""></div>
+                <div class="slideImgTop"><img src="./image/immo-vue-interieur-contour.jpg" alt=""></div>
+                <span class="hudle"></span>
+            </div>
+        </section>
+        <section class="theThirdBannerImmo deviceArear">
+            <div class="theThirdBackground"></div>
+            <div class="theThirdContent">
+                <div class="theThirdLeft">
+                    <img src="./image/gizmo-immo-3-1.png" alt="">
+                </div>
+                <div class="theThirdRight">
+                    <div class="theThirdRightContent">
+                        <div class="theThirdRightContentTop">
+                            <span>#VR</span>
+                            <span>#MOBILE</span>
+                            <span>#3D</span>
+                            <span>#SIMPLE</span>
+                            <span>#EFFICACE</span>
+                        </div>
+                        <img class="theThirdRightContentBottom" src="./image/anim_lunettes.gif" alt="">
+                    </div>
+                    <h2 class="theThirdRightH2 marginTop">Faire visiter tous vos logements<br><i>devient simple comme un jeu
+                            d'enfant</i></h2>
+                    <p class="theThirdRightP marginTop">Présenter vos programmes immobiliers, c'est bien, les faire visiter avec
+                        simplicité et enthousiasme, c'est mieux !
+                        Toutes nos visites virtuelles sont faciles à utiliser et à partager dans vos espaces de vente
+                        mais aussi chez soi en famille ou entre amis.
+                        Accessibles sur tous les écrans et visibles en réalité virtuelle grâce à des lunettes 3D à votre
+                        image.
+                        Surprenez vos clients et commandez vos lunettes 3D personnalisées chez Gizmo.immo.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="theFourBannerImmo deviceArear">
+            <div class="theFourBanner">
+                <div class="theFourBannerLeft">
+                    <h2 class="theFourBannerLeftH2 marginTop">Gizmo.immo, une expérience avec une qualité d’image et d’immersion
+                        extraordinaire !</h2>
+                    <p class="theFourBannerLeftP marginTop">Les plus belles images font vivre les plus belles expériences. Le
+                        réalisme fait partie intégrante de notre ADN depuis toujours. Grâce à nos rendus HD vos
+                        programmes sont sublimés et désirables, partout, tout le temps. Donnez la meilleure image de
+                        vous-même !</p>
+                    <div class="theFourBannerLeftHref marginTop immoHrefCommon"><span
+                            class="fourMask maskLine"></span>Contactez-nous</div>
+                </div>
+                <div class="theFourBannerRight">
+                    <video autoplay loop muted width="100%" height="auto" src="./image/immo-ecran.mp4"></video>
+                </div>
+            </div>
+        </section>
+        <section class="theFiveBannerImmo deviceArear">
+            <div class="theFiveBannerImg"><img src="./image/logo-goalive.png" alt=""></div>
+            <p class="theFiveBannerP">Découvrez dès maintenant l'expérience de visite immobilière la plus
+                rafraichissante du marché.</p>
+        </section>
+        <section class="theSixBannerImmo">
+            <div class="theSixBannerImmoTop">
+                <div class="viewport"><div class="theSixBannerImmoTopImg"><img src="./image/viewwer.png" alt=""></div></div>
+                <div class="theSixBannerImmoTopSituation">
+                    <div class="houseListSlideBtn slideBtnCommon"><span class="iconfont">&#xe729;</span></div>
+                    <div class="theSixBannerImmoTopSituationImg">
+                        <img src="./image/thumbnail11.jpg" alt="">
+                        <div class="transitionBox"></div>
+                        <div class="goBtn sofa">
+                            <div class="goBtnMain"><span class="iconfont">&#xe62a;</span></div>
+                        </div>
+                        <div class="goBtn kitchen">
+                            <div class="goBtnMain"><span class="iconfont">&#xe627;</span></div>
+                        </div>
+                        <div class="goBtn kitchenDetial opacityCommon">
+                            <div class="goBtnMain"><span class="iconfont">&#xe627;</span></div>
+                        </div>
+                        <div class="goBtn backHome opacityCommon">
+                            <div class="goBtnMain"><span class="iconfont">&#xe62a;</span></div>
+                        </div>
+                        <div class="goBtn foot opacityCommon">
+                            <div class="goBtnMain"><span class="iconfont">&#xe6b5;</span></div>
+                        </div>
+                        <div class="goBtn batheLeft opacityCommon">
+                            <div class="goBtnMain"><span class="iconfont">&#xe628;</span></div>
+                        </div>
+                        <div class="goBtn batheRight opacityCommon">
+                            <div class="goBtnMain"><span class="iconfont">&#xe628;</span></div>
+                        </div>
+                    </div>
+                    <div class="houseListBanner">
+                    </div>
+                    <div class="houseMenu">
+                        <span class="iconfont" id="menu1">&#xe6b9;</span>
+                        <span class="iconfont" id="menu2">&#xe626;</span>
+                        <span class="iconfont" id="menu3">&#xe625;</span>
+                        <span class="iconfont" id="menu4">&#xe623;</span>
+                        <span class="iconfont" id="menu5">&#xe640;</span>
+                        <span class="iconfont" id="menu6">&#xe6e5;</span>
+                    </div>
+                    <div class="houseMenuSlideBtn slideBtnCommon"><span class="iconfont">&#xe729;</span></div>
+                    <div class="bigMask"><span class="bigMaskCicrl"></span></div>
+                    <!-- 概览 -->
+                    <div class="overView">
+                        <div class="overViewImg">
+                            <img src="./image/plan.jpg" alt="">
+                        </div>
+                        <div class="overViewMask">
+                            <span class="iconfont">&#xe651;</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 分享 -->
+                <div class="forward forward-more">
+                    <div class="forwardMask forward-more-mask"></div>
+                    <div class="Content">
+                        <div class="forwardTop forward-more-top"><span class="iconfont" id="deleteForward1">&#xe633;</span></div>
+                        <div class="forward-more-bottom">
+                            <h4 class="forwardBottomTitle">Partager</h4>
+                            <div class="forwardIcon">
+                                <span class="iconfont">&#xe658;</span>
+                                <span class="iconfont">&#xe737;</span>
+                                <span class="iconfont">&#xe94b;</span>
+                                <span class="iconfont">&#xe797;</span>
+                                <span class="iconfont">&#xe62b;</span>
+                                <span class="iconfont">&#xe6f2;</span>
+                                <span class="iconfont">&#xe65a;</span>
+                                <span class="iconfont">&#xe659;</span>
+                                <span class="iconfont">&#xe684;</span>
+                            </div>
+                            <div class="forwardHref">https://viewwer.com/tours/8ll-JTUhh</div>
+                            <h4 class="forwardBottomTitle">Integrer</h4>
+                            <div class="forwardHref" id="longHref"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 更多 -->
+                <div class="more forward-more">
+                    <div class="moredMask forward-more-mask"></div>
+                    <div class="Content">
+                        <div class="moreTop forward-more-top"><span class="moreTopContent">Mentions Légales</span><span class="iconfont" id="deleteForward2">&#xe633;</span></div>
+                        <div class="forward-more-bottom moreButtom">Visite virtuelle selon illustration et interprétation d'artistes. Prestations et décorations à caractère d’ambiance, susceptibles d’évolution et non contractuelles. Se référer à la notice descriptive et aux plans correspondants.</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="theSixBannerImmoBottom">
+                <div class="theSixBannerImmoBottomHrefLeft immoHrefCommon"><span
+                        class="fiveMask maskLine"></span>Demander une démo</div>
+                <div class="theSixBannerImmoBottomHrefRight immoHrefCommon"><span class="sixMask maskLine"></span>Toutes
+                    les visites</div>
+            </div>
+        </section>
+
+
+        <!-- 菜单按钮模块 -->
+        <div class="menuArea">
+            <!-- 菜单按钮模块区的分栏 -->
+            <div class="menuAreamask mask">
+                <div class="maskList minMask"></div>
+                <div class="maskList maxMask"></div>
+                <div class="maskList maxMask"></div>
+                <div class="maskList maxMask"></div>
+                <div class="maskList maxMask"></div>
+                <div class="maskList minMask"></div>
+
+                <!-- 白色半透明三角盒子 -->
+                <div class="menuContener">
+                    <div class="menuAreaTrangle1 menuAreaTrangle"></div>
+                    <div class="menuAreaTrangle2 menuAreaTrangle"></div>
+                    <div class="menuAreaTrangle3 menuAreaTrangle"></div>
+                    <div class="menuAreaTrangle4 menuAreaTrangle"></div>
+                    <div class="menuAreaTrangle5 menuAreaTrangle"></div>
+
+                    <li class="menuList"><span class="before"></span><a href=""><span class="menuContent">Notre
+                                vision</span></a></li>
+                    <li class="menuList"><span class="before"></span><a href=""><span class="menuContent">Nos
+                                produits</span></a></li>
+                    <li class="menuList"><span class="before"></span><a href=""><span class="menuContent">Notre
+                                équipe</span></a></li>
+                    <li class="menuList"><span class="before"></span><a href=""><span class="menuContent">FAQ</span></a>
+                    </li>
+                    <li class="menuList"><span class="before"></span><a href=""><span
+                                class="menuContent">Contact</span></a></li>
+                    <li class="menuList menuLists">
+                        <a href="" class="whiteCicle"><span class="iconfont">&#xe658;</span></a>
+                        <a href="" class="whiteCicle"><span class="iconfont">&#xe737;</span></a>
+                        <a href="" class="whiteCicle"><span class="iconfont">&#xe655;</span></a>
+                        <a href="" class="whiteCicle"><span class="iconfont">&#xe6f2;</span></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <!-- 搜索区域 -->
+        <div class="searchArea">
+            <div class="flexBanner">
+                <div class="searchBanner">
+                    <form id="form" action="" method="post">
+                        <input type="search" name="search" id="searchBtn" placeholder="Votre recherche...">
+                    </form>
+                    <p class="former"><span>FERMER</span></p>
+                </div>
+            </div>
+        </div>
+
+        <section class="bodyLists">
+            <div class="bodyListsImg"><img src="./image/main5.jpg" alt=""></div>
+            <div class="theSevenBanner bannerCommon">
+                <h2 class="theSevenTitle h2Common">L'immobilier a changé.
+                    Contactez-nous</h2>
+                <form action="" id="theSevenForm" method="post">
+                    <div><span id="theSevenFormName">Je souhaiterais</span><span id="theSevenFormLis"
+                            class="bac"><select name="" id="">
+                                <option id="slideBac" value="obtenir des informations" selected>obtenir des informations
+                                </option>
+                                <option id="slideBac" value="obtenir un RDV">obtenir un RDV</option>
+                                <option id="slideBac" value="obtenir une demo">obtenir une demo</option>
+                            </select></span></div>
+                    <div><span id="theSevenFormName">au sujet de la solution</span><span id="theSevenFormLis"
+                            class="bac"><select name="" id="">
+                                <option id="slideBac" value="Gizmo Immo" selected>Gizmo Immo</option>
+                                <option id="slideBac" value="Gizmo Viewwer">Gizmo Viewwer</option>
+                            </select></span></div>
+                    <div><span id="theSevenFormName">Je m'appelle</span><span id="theSevenFormLis"><input type="text"
+                                name="" id="" placeholder="Prénom / Nom"></span>*</div>
+                    <div><span id="theSevenFormName">et suis basé à</span><span id="theSevenFormLis"><input type="text"
+                                name="" id="" placeholder="Ville"></span></div>
+                    <div><span id="theSevenFormName">Mon email est</span><span id="theSevenFormLis"><input type="text"
+                                name="" id="" placeholder="Email"></span>*</div>
+                    <div><span id="theSevenFormName">et mon numéro de téléphone</span><span id="theSevenFormLis"><input
+                                type="text" name="" id="" placeholder="Téléphone"></span>*</div>
+                    <button class="hrefCommon theSevenBtn">ENVOYER</button>
+                </form>
+                <p class="theSevenP">Les informations recueillies vous concernant font l’objet d’un traitement destiné à
+                    la société GIZMO dans le cadre d’envois réguliers de newsletters La durée de conservation des
+                    données est de 3 ans. Vous bénéficiez d’un droit d’accès, de rectification, de portabilité,
+                    d’effacement de celles-ci ou une limitation du traitement. Vous pouvez vous opposer au traitement
+                    des données vous concernant et disposez du droit de retirer votre consentement à tout moment en
+                    envoyant un email à l’adresse contact@gizmo-immo.com. Vous avez la possibilité d’introduire une
+                    réclamation auprès d’une autorité de contrôle.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- 底部模块 -->
+    <footer class="mainFooter">
+        <div class="mainFooterList">
+            <div class="mainFooterLogo"><img src="./image/logo.png" alt=""></div>
+            <div class="mainFooterli">Offre d’emploi</div>
+            <div class="mainFooterli">Mentions légales</div>
+            <div class="mainFooterli">Politique de confidentialité</div>
+            <div class="mainFooterli">CGV</div>
+            <div class="mainFooterCicle">
+                <div class="whiteCicle"><span class="iconfont">&#xe658;</span></div>
+                <div class="whiteCicle"><span class="iconfont">&#xe737;</span></div>
+                <div class="whiteCicle"><span class="iconfont">&#xe655;</span></div>
+                <div class="whiteCicle"><span class="iconfont">&#xe6f2;</span></div>
+            </div>
+        </div>
+        <div class="mainFooterList">
+            <h4>NOTRE VISION</h4>
+        </div>
+        <div class="mainFooterList">
+            <div class="ww">
+                <h4>NOS PRODUITS</h4>
+                <h6>Gizmo.immo</h6>
+                <h6>Viewwer</h6>
+            </div>
+        </div>
+        <div class="mainFooterList">
+            <h4>NOTRE ÉQUIPE</h4>
+        </div>
+        <div class="mainFooterList">
+            <h4>CONTACT</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
